@@ -16,7 +16,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class GithubController {
     
-    private final GithubService githubService;;
+    private final GithubService githubService;
     
     @GetMapping("/{username}/repos")
     public ResponseEntity<List<RepositoryDto>> getUserRepositories(@PathVariable String username) {
