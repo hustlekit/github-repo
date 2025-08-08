@@ -62,7 +62,7 @@ Returns a list of repositories for the specified GitHub username.
 
 ### Prerequisites
 - Java 21 or higher
-- Maven 3.x
+- Maven 3.9.x
 
 ### Building the Application
 ```bash
